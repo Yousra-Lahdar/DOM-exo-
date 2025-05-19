@@ -1,2 +1,3 @@
-const imgCat = document.querySelector('.img-cat')
-imgCat.src = "https://placecats.com/200/286";
+const id = prompt("Quel est ton nom ?");
+const titleElement = document.querySelector('.title');
+titleElement.innerHTML = `Hello, ${id}`;
